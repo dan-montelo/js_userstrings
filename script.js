@@ -3,7 +3,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { Rhino3dmLoader } from 'three/examples/jsm/loaders/3DMLoader'
 import rhino3dm from 'rhino3dm'
 
-const model = 'RectifiedArchimedeanSolids.3dm'
+const model = 'timber.3dm'
 let rotation = 0.01
 const selectMaterial = new THREE.MeshStandardMaterial( { metalness: 1, roughness: 0.7, color: 0xffff00 } )
 const material = new THREE.MeshStandardMaterial( { metalness: 1, roughness: 0.7, color: 0xadd8e6 } )
